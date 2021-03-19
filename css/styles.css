@@ -58,31 +58,21 @@ h1 {
     font-size: 70px;
 }
 
-.title_style {
-    max-width: 800px;
+.title_content {
+    max-width: 1200px;
+    display: flex;
 }
 
-.title_style h1 {
+.title_content h1 {
     margin: 150px 0 50px 0;
     color: #3c3c3c;
 }
 
-.title_style span {
+.title_content span {
     color: #747474;
 }
 
-.image_style {
-    display: block;
-    max-width: 400px;
-    float: right;
-}
-
-.image_style img {
-    max-width: 400px;
-}
-
-.image_style button {
-    display: inline-block;
+.title_content button {
     width: 100px;
     height: 50px;
     font-size: 20px;
@@ -92,6 +82,34 @@ h1 {
     background-color: #3cce10;
 }
 
-.image_style button:hover {
+.title_content button:hover {
     background-color: #57f028;
 }
+
+
+/* EPISODES */
+
+.list_content {
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* VIDEO */
+
+.video_container {
+    margin: 0 auto;
+}
+
+.video_container video {
+    width: 100%;
+    height: 500px;
+}
+
+
+/* RESUME */
+
+
+/* END */
